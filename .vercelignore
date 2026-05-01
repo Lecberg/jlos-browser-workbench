@@ -1,0 +1,10 @@
+node_modules
+dist
+tmp
+Processing
+editor/__pycache__
+editor/tests/__pycache__
+*.log
+.pytest_cache
+.venv
+venv
