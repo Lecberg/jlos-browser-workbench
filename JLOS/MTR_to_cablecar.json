@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "meta": {
+    "routeName": "Imported Route",
+    "xScale": 2.129,
+    "yScale": 7.5,
+    "gridWidthM": 25.0,
+    "gridHeightM": 4.0,
+    "showLegend": false,
+    "showOverallLos": false,
+    "overallLos": "B"
+  },
+  "origin": {
+    "type": ""
+  },
+  "destination": {
+    "type": ""
+  },
+  "levels": [
+    {
+      "label": "-1F",
+      "elevationM": -8.0
+    },
+    {
+      "label": "G",
+      "elevationM": 0.0
+    },
+    {
+      "label": "1F",
+      "elevationM": 6.0
+    },
+    {
+      "label": "2F",
+      "elevationM": 12.0
+    }
+  ],
+  "segments": [
+    {
+      "lengthM": 10.0,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "metro",
+      "midMarker": "escalator_down",
+      "los": "C",
+      "targetLevel": "G"
+    },
+    {
+      "lengthM": 133.0,
+      "verticalM": 0.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "G"
+    },
+    {
+      "lengthM": 20.0,
+      "verticalM": 12.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "C",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 88.0,
+      "verticalM": 12.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 33.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 24.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 12.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_down",
+      "los": "B",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 13.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 24.0,
+      "verticalM": 0.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "1F"
+    }
+  ]
+}

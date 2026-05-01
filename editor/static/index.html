@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLOS Route Editor</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <div class="toast-region" aria-label="Editor notifications" aria-live="polite" aria-atomic="false">
+      <div class="toast-stack" id="toast-stack"></div>
+    </div>
+
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="eyebrow">Pedestrian route workbench</p>
+        <h1>JLOS Route Editor</h1>
+      </div>
+      <div class="toolbar" aria-label="Route actions">
+        <div class="toolbar-group">
+          <button class="button ghost" data-action="new-route">New</button>
+          <button class="button ghost" data-action="reload-route">Reload</button>
+          <label class="button ghost file-button">
+            Import
+            <input id="json-import" type="file" accept=".json,application/json" hidden>
+          </label>
+          <button class="button primary" data-action="save-route">Save JSON</button>
+          <button class="button secondary" data-action="export-route">Export CSV</button>
+        </div>
+        <div class="toolbar-group primary-actions">
+          <button class="button accent" data-action="render-route">Render Diagram</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="panel stack" id="left-column" aria-label="Route settings"></aside>
+      <main class="panel stack" id="center-column" aria-label="Segment authoring"></main>
+      <aside class="panel stack" id="right-column" aria-label="Preview and validation"></aside>
+    </div>
+
+    <footer class="statusbar">
+      <span id="status-text">Loading editor...</span>
+    </footer>
+
+    <div class="preview-modal" id="preview-modal" aria-hidden="true" hidden>
+      <div class="preview-modal-backdrop" data-action="close-preview"></div>
+      <div class="preview-modal-card" role="dialog" aria-modal="true" aria-labelledby="preview-modal-title">
+        <div class="card-header preview-modal-header">
+          <div>
+            <h2 id="preview-modal-title">Rendered Preview</h2>
+            <p class="card-subtitle" id="preview-modal-subtitle">Render Diagram to generate a preview.</p>
+          </div>
+          <div class="preview-modal-actions">
+            <button class="button secondary" type="button" id="preview-download-button" data-action="download-preview">Download</button>
+            <button class="button ghost" type="button" data-action="close-preview">Close</button>
+          </div>
+        </div>
+        <div class="preview-modal-body">
+          <div class="preview-modal-frame">
+            <img id="preview-modal-image" alt="Rendered JLOS preview" hidden>
+            <div class="preview-empty" id="preview-modal-empty">
+              <p>No preview available yet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <template id="empty-state-template">
+    <div class="empty-state">
+      <p>No route segments yet.</p>
+      <button class="button secondary" data-action="add-segment">Add Segment</button>
+    </div>
+  </template>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

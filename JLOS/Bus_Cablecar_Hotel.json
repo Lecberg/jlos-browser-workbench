@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "meta": {
+    "routeName": "Imported Route",
+    "xScale": 1.487,
+    "yScale": 7.5,
+    "gridWidthM": 35.0,
+    "gridHeightM": 4.0,
+    "showLegend": false,
+    "showOverallLos": false,
+    "overallLos": "B"
+  },
+  "origin": {
+    "type": ""
+  },
+  "destination": {
+    "type": ""
+  },
+  "startLevel": "-1F",
+  "levels": [
+    {
+      "label": "-1F",
+      "elevationM": -8.0
+    },
+    {
+      "label": "G",
+      "elevationM": 0.0
+    },
+    {
+      "label": "1F",
+      "elevationM": 6.0
+    },
+    {
+      "label": "2F",
+      "elevationM": 12.0
+    }
+  ],
+  "segments": [
+    {
+      "lengthM": 46.0,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "bus",
+      "midMarker": "none",
+      "los": "A",
+      "targetLevel": "-1F"
+    },
+    {
+      "lengthM": 34.0,
+      "verticalM": 8.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "C",
+      "targetLevel": "G"
+    },
+    {
+      "lengthM": 26.0,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "G"
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "C",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 125.0,
+      "verticalM": 0.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 13.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "B",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 23.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "A",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 23.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "ticketing",
+      "midMarker": "none",
+      "los": "A",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_down",
+      "los": "B",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 11.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 102.0,
+      "verticalM": -6.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "B",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 35.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "los": "A",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "B",
+      "targetLevel": "2F"
+    },
+    {
+      "lengthM": 10.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "A",
+      "targetLevel": "2F"
+    }
+  ]
+}

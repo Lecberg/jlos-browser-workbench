@@ -1,0 +1,426 @@
+{
+  "version": 3,
+  "meta": {
+    "routeName": "Imported Route",
+    "xScale": 2.5,
+    "yScale": 10.0,
+    "gridWidthM": 30.0,
+    "gridHeightM": 4.0,
+    "showLegend": true,
+    "showOverallLos": true,
+    "overallLos": "B",
+    "legacyOverallLos": "",
+    "destinationMetricLabelPosition": "right",
+    "canvasPaddingX": 100.0,
+    "canvasPaddingTop": 50.0,
+    "canvasPaddingBottom": 120.0,
+    "canvasRatioPreset": "custom",
+    "canvasRatioWidth": 10.0,
+    "canvasRatioHeight": 6.0
+  },
+  "scenario": {
+    "name": "Base Scenario",
+    "standard": "fruin_hcm_v1",
+    "demandPpm": 25.0,
+    "userProfile": "standard_adult"
+  },
+  "origin": {
+    "type": ""
+  },
+  "destination": {
+    "type": ""
+  },
+  "startLevel": "-1F",
+  "levels": [
+    {
+      "label": "-1F",
+      "elevationM": -8.0
+    },
+    {
+      "label": "G",
+      "elevationM": 0.0
+    },
+    {
+      "label": "1F",
+      "elevationM": 6.0
+    },
+    {
+      "label": "2F",
+      "elevationM": 12.0
+    }
+  ],
+  "segments": [
+    {
+      "lengthM": 46.0,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "bus",
+      "midMarker": "none",
+      "targetLevel": "-1F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": -8.0,
+        "endElevationM": -8.0,
+        "pathLengthM": 46.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 34.0,
+      "verticalM": 8.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "targetLevel": "G",
+      "los": "C",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": -8.0,
+        "endElevationM": 0.0,
+        "pathLengthM": 34.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "C",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 26.0,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "none",
+      "targetLevel": "G",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 0.0,
+        "endElevationM": 0.0,
+        "pathLengthM": 26.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "sheltered",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "targetLevel": "1F",
+      "los": "C",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 0.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 17.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "C",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 125.0,
+      "verticalM": 0.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "targetLevel": "1F",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 125.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 13.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "targetLevel": "1F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 13.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "targetLevel": "2F",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 12.0,
+        "pathLengthM": 17.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 23.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "none",
+      "targetLevel": "2F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 12.0,
+        "endElevationM": 12.0,
+        "pathLengthM": 23.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 23.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "ticketing",
+      "midMarker": "none",
+      "targetLevel": "2F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 12.0,
+        "endElevationM": 12.0,
+        "pathLengthM": 23.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_down",
+      "targetLevel": "1F",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 12.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 17.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 11.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "targetLevel": "1F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 11.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 102.0,
+      "verticalM": -6.0,
+      "weather": "open",
+      "startMarker": "none",
+      "midMarker": "none",
+      "targetLevel": "1F",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 102.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 35.0,
+      "verticalM": -6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "retail",
+      "targetLevel": "1F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 6.0,
+        "pathLengthM": 35.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 17.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "targetLevel": "2F",
+      "los": "B",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 6.0,
+        "endElevationM": 12.0,
+        "pathLengthM": 17.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "B",
+        "flowPerMinPerM": 0.0
+      }
+    },
+    {
+      "lengthM": 10.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "none",
+      "targetLevel": "2F",
+      "los": "A",
+      "kind": "walkway",
+      "effectiveWidthM": 0.0,
+      "fixedDelayS": 0.0,
+      "queueDelayS": 0.0,
+      "capacityFactor": 0.0,
+      "legacyLos": "",
+      "computed": {
+        "startElevationM": 12.0,
+        "endElevationM": 12.0,
+        "pathLengthM": 10.0,
+        "travelTimeS": 0.0,
+        "impedanceS": 0.0,
+        "los": "A",
+        "flowPerMinPerM": 0.0
+      }
+    }
+  ],
+  "computed": {
+    "totalLengthM": 516.0,
+    "totalVerticalM": 20.0,
+    "totalTimeS": 0.0,
+    "totalImpedanceS": 0.0,
+    "overallLos": "B",
+    "suggestedOverallLos": "C",
+    "assumptions": [],
+    "warnings": [
+      "Overall LOS is set to B, while the worst segment suggests C."
+    ]
+  }
+}

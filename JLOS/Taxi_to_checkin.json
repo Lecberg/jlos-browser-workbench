@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "meta": {
+    "routeName": "Imported Route",
+    "xScale": 5.601,
+    "yScale": 15.0,
+    "gridWidthM": 20.0,
+    "gridHeightM": 4.0,
+    "showLegend": false,
+    "showOverallLos": false,
+    "overallLos": "B"
+  },
+  "origin": {
+    "type": ""
+  },
+  "destination": {
+    "type": ""
+  },
+  "levels": [
+    {
+      "label": "-1F",
+      "elevationM": -8.0
+    },
+    {
+      "label": "G",
+      "elevationM": 0.0
+    },
+    {
+      "label": "1F",
+      "elevationM": 6.0
+    },
+    {
+      "label": "2F",
+      "elevationM": 12.0
+    }
+  ],
+  "segments": [
+    {
+      "lengthM": 3.69,
+      "verticalM": 0.0,
+      "weather": "sheltered",
+      "startMarker": "drop_off",
+      "midMarker": "none",
+      "los": "C",
+      "targetLevel": "G"
+    },
+    {
+      "lengthM": 30.0,
+      "verticalM": 6.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "escalator_up",
+      "los": "B",
+      "targetLevel": "1F"
+    },
+    {
+      "lengthM": 102.0,
+      "verticalM": 0.0,
+      "weather": "air_conditioned",
+      "startMarker": "none",
+      "midMarker": "none",
+      "los": "A",
+      "targetLevel": "1F"
+    }
+  ]
+}
