@@ -35,7 +35,6 @@ interface DrawResult {
 export function renderRouteSvg(route: Route, analysis: Analysis, theme: DiagramTheme = defaultDiagramTheme): SVGSVGElement {
   const layout = buildLayout(route, analysis);
   const svg = el("svg");
-  svg.setAttribute("xmlns", NS);
   svg.setAttribute("width", String(layout.canvasWidth));
   svg.setAttribute("height", String(layout.canvasHeight));
   svg.setAttribute("viewBox", `0 0 ${layout.canvasWidth} ${layout.canvasHeight}`);

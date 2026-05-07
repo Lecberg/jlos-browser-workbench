@@ -10,7 +10,7 @@ The generated diagrams use a cleaner contemporary transport-diagram style: muted
 
 ![JLOS Browser Workbench overview](docs/screenshots/workbench-overview.png)
 
-![Generated JLOS route diagram](docs/screenshots/generated-diagram.svg)
+![Generated JLOS route diagram](docs/screenshots/generated-diagram.png)
 
 ## Features
 
