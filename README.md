@@ -6,6 +6,12 @@ JLOS Browser Workbench is a browser-only route editor and diagram generator for 
 
 The generated diagrams use a cleaner contemporary transport-diagram style: muted gridlines, accessible LOS color tokens, rounded route geometry, inline vector pictograms, and presentation-ready SVG/PNG output. Existing JLOS JSON samples remain supported, and legacy CSV export is available for compatibility.
 
+## Screenshots
+
+![JLOS Browser Workbench overview](docs/screenshots/workbench-overview.png)
+
+![Live JLOS diagram preview](docs/screenshots/diagram-preview.png)
+
 ## Features
 
 - Edit route metadata, terminals, levels, and segment geometry in the browser
